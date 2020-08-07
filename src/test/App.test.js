@@ -14,12 +14,12 @@ beforeEach(() => {
 describe('<Todo />', () => {
 
   it('should render InputTodo Component', () => {
-    console.log(wrapper.debug())
+    // console.log(wrapper.debug())
     expect(wrapper.containsMatchingElement(<InputTodo />)).toEqual(true);
   });
 
   it('should render TodoList Component', () => {
-    console.log(wrapper.debug())
+    // console.log(wrapper.debug())
     expect(wrapper.containsMatchingElement(<TodoList />)).toEqual(true);
   });
 })

@@ -7,11 +7,9 @@ import InputTodo from './components/InputTodo';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Todo App</h1>
+    <div className="container">
       <InputTodo />
       <TodoList />
-      <Counter />
     </div>
   );
 }
